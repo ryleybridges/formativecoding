@@ -134,4 +134,11 @@ h1 {
   font-size: 50px;
   letter-spacing: 4px; }
 
+.center {
+  display: block;
+  align-content: center;
+  float: left;
+  margin-top: 40px;
+  margin-right: 50px; }
+
 /*# sourceMappingURL=style.css.map */

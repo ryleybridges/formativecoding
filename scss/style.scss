@@ -93,13 +93,10 @@ h1 {
 	letter-spacing: 4px;
 }
 
-// .content {
-// 	height: 400px;
-// 	width: 100%;
-// 	background-color: $mainColour;
-// }
-
-// .textbox {
-// 	width: 500px;
-// 	padding-top:30px;
-// }
+.center {
+	display: block;
+	align-content: center;
+	float: left;
+	margin-top: 40px;
+	margin-right: 50px;
+}
