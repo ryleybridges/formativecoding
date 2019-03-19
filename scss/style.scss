@@ -1,5 +1,6 @@
-$mainColour:#55585b;
+$mainColour:#43536d;
 $secondColour: #e0e0e0;
+$hoverColour: #b3b3b5;
 $mainFont: 'Roboto', sans-serif;
 $siteSize: 1250px;
 
@@ -54,6 +55,11 @@ ul {
 
 a {
 	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: $hoverColour;
 }
 
 li {
@@ -71,7 +77,7 @@ li a {
 }
 
 li a:hover {
-	color: #b3b3b5;
+	color: $hoverColour;
 }
 
 .image {
@@ -80,7 +86,12 @@ li a:hover {
 }
 
 .content {
-	height: 450px;
+	height: 400px;
+}
+
+.heading1 {
+	margin-top: 60px;
+	margin-left: 30px;
 }
 
 h1 {
@@ -93,10 +104,38 @@ h1 {
 	letter-spacing: 4px;
 }
 
+h2 {
+	color: white;
+	font-family: $mainFont;
+	font-size: 45px;
+	text-align: right;
+	padding-top: 46px;
+}
+
+h3 {
+	color: white;
+	font-family: $mainFont;
+	font-size: 43px;
+	padding-top: -10px;
+}
+
 .center {
 	display: block;
 	align-content: center;
 	float: left;
-	margin-top: 40px;
-	margin-right: 50px;
+	margin-top: 85px;
+}
+
+.roomImage {
+	height: 100%;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+	font-family: $mainFont;
+}
+
+.textbox {
+	font-size: 22px;
 }

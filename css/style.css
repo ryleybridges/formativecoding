@@ -89,7 +89,7 @@
   margin-left: 100%; }
 
 .grey {
-  background-color: #55585b; }
+  background-color: #43536d; }
 
 .white {
   background-color: #e0e0e0; }
@@ -101,7 +101,11 @@ ul {
   list-style-type: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
+
+a:hover {
+  color: #b3b3b5; }
 
 li {
   float: left;
@@ -123,7 +127,11 @@ li a:hover {
   background-color: black; }
 
 .content {
-  height: 450px; }
+  height: 400px; }
+
+.heading1 {
+  margin-top: 60px;
+  margin-left: 30px; }
 
 h1 {
   text-align: center;
@@ -134,11 +142,34 @@ h1 {
   font-size: 50px;
   letter-spacing: 4px; }
 
+h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  text-align: right;
+  padding-top: 46px; }
+
+h3 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 43px;
+  padding-top: -10px; }
+
 .center {
   display: block;
   align-content: center;
   float: left;
-  margin-top: 40px;
-  margin-right: 50px; }
+  margin-top: 85px; }
+
+.roomImage {
+  height: 100%; }
+
+p {
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif; }
+
+.textbox {
+  font-size: 22px; }
 
 /*# sourceMappingURL=style.css.map */
