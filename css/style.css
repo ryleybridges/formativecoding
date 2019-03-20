@@ -124,7 +124,7 @@ li a:hover {
 
 .image {
   height: 500px;
-  background-color: black; }
+  padding: 0; }
 
 .content {
   height: 400px; }
@@ -162,7 +162,9 @@ h3 {
   margin-top: 85px; }
 
 .roomImage {
-  height: 100%; }
+  height: 90%;
+  padding: 0;
+  padding-left: 100px; }
 
 p {
   font-size: 20px;
@@ -171,5 +173,28 @@ p {
 
 .textbox {
   font-size: 22px; }
+
+.heading3 {
+  text-align: center; }
+
+.review {
+  margin-left: 75px;
+  margin-top: 10px;
+  height: 50%; }
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 19px;
+  padding-top: 5px; }
+
+.reviewbox {
+  color: black;
+  font-size: 18px;
+  padding-top: 10px; }
+
+.footertext {
+  text-align: center;
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */
