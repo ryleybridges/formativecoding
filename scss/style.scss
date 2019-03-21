@@ -113,7 +113,7 @@ h2 {
 }
 
 h3 {
-	color: white;
+	color: $secondColour;
 	font-family: $mainFont;
 	font-size: 43px;
 	padding-top: -10px;
@@ -134,7 +134,7 @@ h3 {
 
 p {
 	font-size: 20px;
-	color: white;
+	color: $secondColour;
 	font-family: $mainFont;
 }
 
@@ -160,16 +160,18 @@ h4 {
 }
 
 .reviewbox {
-	color: black;
+	color: $mainColour;
 	font-size: 18px;
 	padding-top: 10px;
 }
 
 .footertext {
 	text-align: center;
-	color: black;
+	color: $mainColour;
 }
 
-@media screen and (max-width: 800px) {
-	
+@media screen and (max-width: 800px){
+	.pageContainer {
+		width: 800px;
+	}
 }
